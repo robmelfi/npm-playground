@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = function acronym(sentence, callback) {
+module.exports = function rmacronym(sentence, callback) {
 
     return new Promise((resolve, reject) => {
         if (sentence.length === 0) {

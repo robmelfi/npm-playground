@@ -1,6 +1,6 @@
-const acronym = require('./');
+const rmacronym = require('./');
 
-acronym('Rob Mel', (err, resp) => {
+rmacronym('Rob Mel', (err, resp) => {
     if (err) {
         console.log(err);
     }
